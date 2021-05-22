@@ -6,8 +6,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { AuthContext } from '../provider/AuthProvider';
 
 // Main
-import Home from '../screens/Home';
-import SecondScreen from '../screens/SecondScreen';
+/* import Home from '../screens/Home';
+import SecondScreen from '../screens/SecondScreen'; */
 
 // Auth screens
 import Login from '../screens/auth/Login';
@@ -16,6 +16,14 @@ import ForgetPassword from '../screens/auth/ForgetPassword';
 
 import Loading from '../screens/utils/Loading';
 import OnboardingScreen from '../screens/OnboardingScreen';
+import HomeScreen from '../screens/Home/HomeScreen';
+/* import CategoriesScreen from '../screens/Categories/CategoriesScreen';
+import RecipeScreen from '../screens/Recipe/RecipeScreen';
+import RecipesListScreen from '../screens/RecipesList/RecipesListScreen';
+import DrawerContainer from '../screens/DrawerContainer/DrawerContainer';
+import IngredientScreen from '../screens/Ingredient/IngredientScreen';
+import SearchScreen from '../screens/Search/SearchScreen';
+import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsDetailsScreen'; */
 
 // Better put your these secret keys in .env file
 const firebaseConfig = {
@@ -56,8 +64,7 @@ const Main = () => {
 				headerShown: false,
 			}}
 		>
-			<MainStack.Screen name="Home" component={Home} />
-			<MainStack.Screen name="SecondScreen" component={SecondScreen} />
+			<MainStack.Screen name="Home" component={HomeScreen} />
 		</MainStack.Navigator>
 	);
 };
