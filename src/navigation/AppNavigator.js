@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import * as firebase from 'firebase';
 import { NavigationContainer } from '@react-navigation/native';
+import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import { AuthContext } from '../provider/AuthProvider';
@@ -17,13 +18,17 @@ import ForgetPassword from '../screens/auth/ForgetPassword';
 import Loading from '../screens/utils/Loading';
 import OnboardingScreen from '../screens/OnboardingScreen';
 import HomeScreen from '../screens/Home/HomeScreen';
-/* import CategoriesScreen from '../screens/Categories/CategoriesScreen';
+import AlimentacionScreen from '../screens/Alimentacion/AlimentacionScreen';
+import EjerciciosScreen from '../screens/Ejercicios/EjerciciosScreen';
+import GlucosaScreen from '../screens//Glucosa/GlucosaScreen';
 import RecipeScreen from '../screens/Recipe/RecipeScreen';
-import RecipesListScreen from '../screens/RecipesList/RecipesListScreen';
-import DrawerContainer from '../screens/DrawerContainer/DrawerContainer';
 import IngredientScreen from '../screens/Ingredient/IngredientScreen';
+import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsDetailsScreen';
+import DetalleScreen from "../screens/Ejercicios/DetalleScreen"
+/* import CategoriesScreen from '../screens/Categories/CategoriesScreen';
+import RecipesListScreen from '../screens/RecipesList/RecipesListScreen';
 import SearchScreen from '../screens/Search/SearchScreen';
-import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsDetailsScreen'; */
+ */
 
 // Better put your these secret keys in .env file
 const firebaseConfig = {
@@ -55,17 +60,25 @@ const Auth = () => {
 	);
 };
 
-const MainStack = createStackNavigator();
+const Drawer = createDrawerNavigator();
 
 const Main = () => {
 	return (
-		<MainStack.Navigator
+		<Drawer.Navigator
 			screenOptions={{
 				headerShown: false,
 			}}
+			initialRouteName="Home"
 		>
-			<MainStack.Screen name="Home" component={HomeScreen} />
-		</MainStack.Navigator>
+			<Drawer.Screen name="Home" component={HomeScreen} />
+			<Drawer.Screen name="Alimentacion" component={AlimentacionScreen} />
+			<Drawer.Screen name="Ejercicios" component={EjerciciosScreen} />
+			<Drawer.Screen name="Niveles de Glucosa" component={GlucosaScreen} />
+			<Drawer.Screen name="DetalleEjercicio" component={DetalleScreen} />
+			<Drawer.Screen name="Recipe" component={RecipeScreen} />
+			<Drawer.Screen name="IngredientScreen" component={RecipeScreen} />
+			<Drawer.Screen name="IngredientsDetails" component={IngredientsDetailsScreen} />
+		</Drawer.Navigator>
 	);
 };
 

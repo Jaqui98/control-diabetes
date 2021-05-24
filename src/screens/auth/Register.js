@@ -13,6 +13,9 @@ import { Layout, Text, TextInput, Button } from 'react-native-rapi-ui';
 
 export default function ({ navigation }) {
 	const [email, setEmail] = useState('');
+	const [peso, setPeso] = useState('');
+	const [estatura, setEstatura] = useState('');
+	const [fechaNac, setFechaNac] = useState('');
 	const [password, setPassword] = useState('');
 	const [loading, setLoading] = useState(false);
 
@@ -85,6 +88,37 @@ export default function ({ navigation }) {
 							autoCorrect={false}
 							keyboardType="email-address"
 							onChangeText={(text) => setEmail(text)}
+						/>
+						<Text>Peso (Kg)</Text>
+						<TextInput
+							containerStyle={{ marginTop: 15 }}
+							placeholder="Digita tu peso kiligramos"
+							value={peso}
+							autoCapitalize="none"
+							autoCompleteType="off"
+							autoCorrect={false}
+							keyboardType="email-address"
+							onChangeText={(text) => setPeso(text)}
+						/>
+						<Text>Estatura (m)</Text>
+						<TextInput
+							containerStyle={{ marginTop: 15 }}
+							placeholder="Digita tu estatura metros"
+							value={estatura}
+							autoCapitalize="none"
+							autoCompleteType="off"
+							autoCorrect={false}
+							onChangeText={(text) => setEstatura(text)}
+						/>
+						<Text>Fecha de nacimiento</Text>
+						<TextInput
+							containerStyle={{ marginTop: 15 }}
+							placeholder="Digita tu fecha de nacimiento"
+							value={fechaNac}
+							autoCapitalize="none"
+							autoCompleteType="off"
+							autoCorrect={false}
+							onChangeText={(text) => setFechaNac(text)}
 						/>
 
 						<Text style={{ marginTop: 15 }}>Contraseña</Text>

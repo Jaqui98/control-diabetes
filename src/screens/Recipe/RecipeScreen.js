@@ -53,10 +53,10 @@ export default class RecipeScreen extends React.Component {
   render() {
     const { activeSlide } = this.state;
     const { navigation } = this.props;
-    const item = navigation.getParam('item');
+    const item = this.props.route.params.item;
     const category = getCategoryById(item.categoryId);
     const title = getCategoryName(category.id);
-
+  
     return (
       <ScrollView style={styles.container}>
         <View style={styles.carouselContainer}>
@@ -96,7 +96,7 @@ export default class RecipeScreen extends React.Component {
           <Text style={styles.infoRecipeName}>{item.title}</Text>
           <View style={styles.infoContainer}>
             <TouchableHighlight
-              onPress={() => navigation.navigate('RecipesList', { category, title })}
+              onPress={() => navigation.navigate('Home', { category, title })}
             >
               <Text style={styles.category}>{getCategoryName(item.categoryId).toUpperCase()}</Text>
             </TouchableHighlight>
@@ -104,7 +104,7 @@ export default class RecipeScreen extends React.Component {
 
           <View style={styles.infoContainer}>
             <Image style={styles.infoPhoto} source={require('../../../assets/icons/time.png')} />
-            <Text style={styles.infoRecipe}>{item.time} minutes </Text>
+            <Text style={styles.infoRecipe}>{item.time} minutos </Text>
           </View>
 
           <View style={styles.infoContainer}>

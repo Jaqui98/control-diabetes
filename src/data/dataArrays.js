@@ -1,55 +1,44 @@
-export const categories = [
+export const services = [
   {
     id: 3,
-    name: 'Cookies',
+    name: 'Alimentacion',
     photo_url:
-    'https://www.telegraph.co.uk/content/dam/Travel/2019/January/france-food.jpg?imwidth=1400'
+    'https://media-exp1.licdn.com/dms/image/C511BAQF0Yi9N5jwv3A/company-background_10000/0/1549016084640?e=2159024400&v=beta&t=4Xz9YiJ8PBOlSRtfD3pdK5SPy1WyzuCbofvRUDsz6Ag'
   },
   {
     id: 1,
-    name: 'Mexican Food',
-    photo_url: 'https://ak1.picdn.net/shutterstock/videos/19498861/thumb/1.jpg'
+    name: 'Ejercicios',
+    photo_url: 'https://lh3.googleusercontent.com/proxy/0JWv1jAa_vXDZH2MpskA-lIrJgEBKD-RbHLgZYiOHMM-Xyq7xakpljI-SrEzCgDYmy6bYuJd4LsFX2IZEWWw-feOpxGmdb3sSVTkRykDgOmaQ5whQXmgUrSqUY7X-_I-O6xEmVQ'
   },
   {
     id: 2,
-    name: 'Italian Food',
+    name: 'Nivel de glucosa',
     photo_url:
-      'https://images.unsplash.com/photo-1533777324565-a040eb52facd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80'
+      'https://cdn-e360.s3-sa-east-1.amazonaws.com/proyectop_article_2658cb8969b08c8ff7a7bedfb3412bd2_jpg_1000x665_100_3179.jpg',
+    photo_input:"https://hospitaljardin.com/img/blog/Glucosa.jpg"
   },
-  {
-    id: 4,
-    name: 'Smoothies',
-    photo_url:
-    'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/still-life-of-three-fresh-smoothies-in-front-of-royalty-free-image-561093647-1544042068.jpg?crop=0.715xw:0.534xh;0.0945xw,0.451xh&resize=768:*'
-  },
-  {
-    id: 0,
-    name: 'Pizza',
-    photo_url: 'https://amp.businessinsider.com/images/5c084bf7bde70f4ea53f0436-750-563.jpg'
-  },
+ 
 ];
 
 export const recipes = [
   {
     recipeId: 122,
     categoryId: 3,
-    title: 'Oatmeal Cookies',
-    photo_url: 'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
+    title: 'Ceviche de Soya',
+    photo_url: 'https://dam.cocinafacil.com.mx/wp-content/uploads/2019/01/ceviche-de-soya-670x375.jpg',
     photosArray: [
-      'https://www.texanerin.com/content/uploads/2019/06/nobake-chocolate-cookies-1-650x975.jpg',
-      "https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg",
-      'https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width600/img/news_impact/photo/burger-fijpg-57e7e5907630c2ad.jpg',
-      'https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1439,w_2560,x_0,y_0/dpr_1.5/c_limit,w_1044/fl_lossy,q_auto/v1492718105/articles/2013/09/24/burger-king-s-new-french-fries-took-ten-years-to-develop/130923-gross-burger-tease_izz59e',
-      'https://aht.seriouseats.com/images/2012/02/20120221-193971-fast-food-fries-Burger-King-fries-2.jpg'
+      'https://cdn2.cocinadelirante.com/sites/default/files/images/2019/02/receta-de-ceviche-de-soya.jpg',
+      "https://cdn.aarp.net/content/dam/aarp/food/recipes/2018/03/1140-heart-healthy-vegan-avocado-ceviche-esp.imgcache.reved3ccab9866bd13832132ef1419d3035.jpg",
+      'https://storage.googleapis.com/avena-recipes/2019/10/1571779990503.jpeg',
     ],
     time: '15',
-    ingredients: [[0, '200ml'], [1, '5g'], [2, '300g']],
+    ingredients: [[0, '250 g de soya texturizada'], [1, '2 pepinos pequeños, pelados y picados'], [2, '500 g de jitomate, picado'],[22,'1/2 cebolla grande, picada'],[4,'10 ramitas de cilantro, sus hojas picadas finamente'],[62,'3 chiles jalapeños, picados'],[63,'500 g de limones, su jugo'],[9,'1 cda. de orégano seco'],[1,'al gusto'],[64,'Tostadas de maíz'],[34,'2 aguacates, pelados y picados']],
     description:
-      '-- Start with cleaned and peeled russet potatoes that you have cut into 3/8-inch match sticks. Place in bowl of very cold water: keep rinsing and changing the water until the water is clear; drain thoroughly and dry with paper towels or a clean lint-free kitchen towel.\n\n -- Meanwhile, you preheat your hot oil to 350 degrees F. Place prepared taters in oil and cook about 5 minutes. They will have that blond-tone color to them. \n\n -- Note: Once you add cold potatoes to the hot oil, the temperature of your oil is going to drop - you want it to be somewhere between 330 - 325 degrees F. \n\n -- Remove from oil; drain and cool. Now - either refrigerate until ready to finish cooking, or cool completely and freeze up to 3 months. To freeze properly - place completely cooled fries in single layer on tray and place in freezer until frozen. Then bag them.\n\n -- To finish cooking - preheat your oil to 400* F. Add your cold fries (which will drop the oil temp - which is fine because you want it near the 375 degrees F. temp) and cook a few minutes until done. Lightly salt them and shake well so that the salt distributes well and they are not salty.'
+      'Coloca la soya en una olla y cubre con agua. Calienta a fuego alto hasta que empiece a hervir y deja que hierva durante 3 minutos. Escurre y enjuaga muy bien con agua limpia. Deja enfriar completamente.Mezcla la soya hidratada con el pepino, jitomate, cebolla, cilantro y chile en un tazón o ensaladera. Vierte encima el jugo de limón y deja reposar durante 30 minutos. Sazona con orégano y sal. Sirve sobre tostadas y adorna con cubitos de aguacate.'
   },
   {
     recipeId: 3,
-    categoryId: 4,
+    categoryId: 3,
     title: 'Triple Berry Smoothie',
     photo_url:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-how-to-make-a-smoothie-horizontal-1542310071.png?crop=0.803xw:0.923xh;0.116xw,0.00510xh&resize=768:*',
@@ -160,7 +149,7 @@ export const recipes = [
   },
   {
     recipeId: 4,
-    categoryId: 1,
+    categoryId: 3,
     title: 'Perfect Fish Tacos',
     photo_url: 'https://hips.hearstapps.com/hmg-prod/images/190307-fish-tacos-112-1553283299.jpg',
     photosArray: [
@@ -187,7 +176,7 @@ export const recipes = [
   },
   {
     recipeId: 5,
-    categoryId: 1,
+    categoryId: 3,
     title: 'Chicken Fajitas',
     photo_url:
       'https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/Flavorful-Chicken-Fajitas_EXPS_GHBZ18_12540_B08_15_8b.jpg',
@@ -218,7 +207,7 @@ export const recipes = [
   },
   {
     recipeId: 6,
-    categoryId: 2,
+    categoryId: 3,
     title: 'Buffalo Pizza',
     photo_url:
       'https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80',
@@ -249,7 +238,7 @@ export const recipes = [
   },
   {
     recipeId: 0,
-    categoryId: 0,
+    categoryId: 3,
     title: 'Classic Lasagna',
     photo_url: 'https://namelymarly.com/wp-content/uploads/2018/04/20180415_Beet_Lasagna_10.jpg',
     photosArray: [
@@ -265,7 +254,7 @@ export const recipes = [
   },
   {
     recipeId: 7,
-    categoryId: 2,
+    categoryId: 3,
     title: 'Spaghetti Carbonara',
     photo_url: 'https://truffle-assets.imgix.net/655ce202-862-butternutsquashcarbonara-land.jpg',
     photosArray: [
@@ -289,7 +278,7 @@ export const recipes = [
   },
   {
     recipeId: 8,
-    categoryId: 2,
+    categoryId: 3,
     title: 'Lazania',
     photo_url: 'https://images8.alphacoders.com/817/817353.jpg',
     photosArray: [
@@ -322,26 +311,49 @@ export const recipes = [
   }
 ];
 
+export const rutinas = [
+  {
+    recipeId: 0,
+    categoryId: 1,
+    rutinaId: 1,
+    title: 'Cardio para principiantes',
+    photo_url: 'https://i.ytimg.com/vi/cCbPQ9eXRjE/maxresdefault.jpg',
+    time: '30',
+    description:
+      '-- El ejercicio físico es esencial para conseguir que nuestra salud esté fortalecida y que nuestro cuerpo esté más joven durante más tiempo. con esta rutina de cardio lo que busco es que vuestro organismo se active, que la sangre fluya mas rapido y aumenten  vuestras pulsaciones. para alguno puede parecer una rutina muy rapida pero con la practica van a lograr llevarle el ritmo. recuerda que si quieres perder peso debes evitar los dulces, las bebidas gaseosas, las harinas, las comidas fritas o grasas saturadas, debes comer muchas verduras, vegetales, batidos verdes, proteinas como el pollo, la carne, el huevo, y leguminosas como frijoles, lentejas, garbanzos. etc.'
+  },
+  {
+    recipeId: 1,
+    categoryId:1,
+    rutinaId: 2,
+    title: 'Abdomen para principiantes',
+    photo_url: 'https://i.ytimg.com/vi/NXj-aKzXVrI/maxresdefault.jpg',
+    time: '30',
+    description:
+      '-- El ejercicio físico es esencial para conseguir que nuestra salud esté fortalecida y que nuestro cuerpo esté más joven durante más tiempo. con esta rutina de cardio lo que busco es que vuestro organismo se active, que la sangre fluya mas rapido y aumenten  vuestras pulsaciones. para alguno puede parecer una rutina muy rapida pero con la practica van a lograr llevarle el ritmo. recuerda que si quieres perder peso debes evitar los dulces, las bebidas gaseosas, las harinas, las comidas fritas o grasas saturadas, debes comer muchas verduras, vegetales, batidos verdes, proteinas como el pollo, la carne, el huevo, y leguminosas como frijoles, lentejas, garbanzos. etc.'
+  }
+]
+
 export const ingredients = [
   {
     ingredientId: 0,
-    name: 'Oil',
+    name: 'Aceite',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/27252067/thumb/11.jpg'
   },
   {
     ingredientId: 1,
-    name: 'Salt',
+    name: 'Sal',
     photo_url:
       'https://image.freepik.com/free-photo/sea-salt-wooden-bowl-isolated-white-background_29402-416.jpg'
   },
   {
     ingredientId: 2,
-    name: 'Russet potatoes',
+    name: 'Papas',
     photo_url: 'http://www.valleyspuds.com/wp-content/uploads/Russet-Potatoes-cut.jpg'
   },
   {
     ingredientId: 3,
-    name: 'Paprika',
+    name: 'Pimienton paprika',
     photo_url:
       'https://image.freepik.com/free-photo/red-chilli-pepper-powder-isolated-white-background_55610-28.jpg'
   },
@@ -352,86 +364,86 @@ export const ingredients = [
   },
   {
     ingredientId: 5,
-    name: 'Celery salt',
+    name: 'Sal de apio',
     photo_url: 'https://www.hasiroglugurme.com/images/urunler/Koftelik-Esmer-Bulgur-resim-297.jpg'
   },
   {
     ingredientId: 6,
-    name: 'Dried sage',
+    name: 'Salvia seca',
     photo_url:
       'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Esxjvv7/super-slow-motion-dried-sage-falling-on-white-background_n1xg2gxzg__F0000.png'
   },
   {
     ingredientId: 7,
-    name: 'Garlic powder',
+    name: 'Polvo de ajo',
     photo_url:
       'https://us.123rf.com/450wm/belchonock/belchonock1808/belchonock180818180/106007144-bowl-of-dry-garlic-powder-on-white-background.jpg?ver=6'
   },
   {
     ingredientId: 8,
-    name: 'Ground allspice',
+    name: 'Pimienta de Jamaica molida',
     photo_url:
       'https://www.savoryspiceshop.com/content/mercury_modules/cart/items/2/6/9/2695/allspice-berries-jamaican-ground-1.jpg'
   },
   {
     ingredientId: 9,
-    name: 'Dried oregano',
+    name: 'Orégano seco',
     photo_url: 'https://frutascharito.es/886-large_default/oregano.jpg'
   },
   {
     ingredientId: 10,
-    name: 'Dried basil',
+    name: 'Albahaca seca',
     photo_url: 'https://www.honeychop.com/wp-content/uploads/2015/09/Dried-Mint.png'
   },
   {
     ingredientId: 11,
-    name: 'Dried marjoram',
+    name: 'Mejorana seca',
     photo_url: 'https://images-na.ssl-images-amazon.com/images/I/71YATIBqBYL._SX355_.jpg'
   },
   {
     ingredientId: 12,
-    name: 'All-purpose flour',
+    name: 'Harina para todo uso',
     photo_url:
       'https://images.assetsdelivery.com/compings_v2/seregam/seregam1309/seregam130900036.jpg'
   },
   {
     ingredientId: 13,
-    name: 'Brown sugar',
+    name: 'Azucar cafe',
     photo_url:
       'https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BALQTtekliuc6iu4u/rotating-brown-sugar-in-a-white-container-on-white-background_sis0xtbyl_thumbnail-full01.png'
   },
   {
     ingredientId: 14,
-    name: 'Kosher salt',
+    name: 'Sal Kosher',
     photo_url:
       'https://d1yn1kh78jj1rr.cloudfront.net/image/preview/r64-6MxPQjlatyfjp/storyblocks-top-view-of-ceramic-salt-cellar-with-coarse-grained-sea-salt-isolated-on-white-background_SPzKionPuV_SB_PM.jpg'
   },
   {
     ingredientId: 15,
-    name: 'Whole chicken',
+    name: 'Pollo',
     photo_url:
       'https://image.shutterstock.com/image-photo/two-raw-chicken-drumsticks-isolated-260nw-632125991.jpg'
   },
   {
     ingredientId: 16,
-    name: 'Eggs',
+    name: 'Huevos',
     photo_url:
       'https://image.shutterstock.com/image-photo/egg-whites-yolk-cup-isolated-260nw-1072453787.jpg'
   },
   {
     ingredientId: 17,
-    name: 'Quarts neutral oil',
+    name: 'Cuartos de aceite neutro',
     photo_url:
       'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fgettyimages-464433694_0.jpg%3Fitok%3DK42YR2GV&w=400&c=sc&poi=face&q=85'
   },
   {
     ingredientId: 18,
-    name: 'Water',
+    name: 'Agua',
     photo_url: 'https://ak1.picdn.net/shutterstock/videos/829561/thumb/11.jpg'
   },
   {
     ingredientId: 19,
-    name: 'Onion Powder',
+    name: 'Cebolla en polvo',
     photo_url:
       'https://image.shutterstock.com/image-photo/mixed-spices-isolated-on-white-260nw-662383828.jpg'
   },
@@ -443,144 +455,144 @@ export const ingredients = [
   },
   {
     ingredientId: 21,
-    name: 'Chicken Breast',
+    name: 'Pechuga de pollo',
     photo_url:
       'https://us.123rf.com/450wm/utima/utima1602/utima160200063/53405187-raw-chicken-breast-fillets.jpg?ver=6'
   },
   {
     ingredientId: 22,
-    name: 'Onion chopped',
+    name: 'Cebolla picada',
     photo_url: 'https://s3.envato.com/files/246703499/IMG_1752_5.jpg'
   },
   {
     ingredientId: 23,
-    name: 'Tomato paste',
+    name: 'Pasta de tomate',
     photo_url:
       'http://d3e1m60ptf1oym.cloudfront.net/45bab59a-363c-11e1-ab4e-bf4c2e0bb026/PANELA_xgaplus.jpg'
   },
   {
     ingredientId: 24,
-    name: 'Chilli Powder',
+    name: 'Chile en polvo',
     photo_url:
       'https://us.123rf.com/450wm/nuttapong/nuttapong1505/nuttapong150500009/40458002-paprika-powder-isolated-on-white-background.jpg?ver=6'
   },
   {
     ingredientId: 25,
-    name: 'Ground Beef',
+    name: 'Carne molida',
     photo_url:
       'https://images.radio.com/kmoxam/s3fs-public/styles/nts_image_cover_tall_775x425/public/dreamstime_s_39607998.jpg?XCM.w1UGOp9sVKkWGQZe7_JIsRddxoIK&itok=3M6KcFLH&c=73fb6497175b4c1a5c79e3ede816656a'
   },
   {
     ingredientId: 26,
-    name: 'Can kidney beans, rinsed and drained ',
+    name: 'Frijoles rojos, enjuagados y escurridos ',
     photo_url:
       'https://www.seriouseats.com/images/2014/04/20140414-pile-of-beans-primary-1500x1125.jpg'
   },
   {
     ingredientId: 27,
-    name: 'Large Tortillas',
+    name: 'Tortillas grandes',
     photo_url: 'https://upload.wikimedia.org/wikipedia/commons/5/56/NCI_flour_tortillas.jpg'
   },
   {
     ingredientId: 28,
-    name: 'Firtos',
+    name: 'Fritos',
     photo_url:
       'https://previews.123rf.com/images/ksena32/ksena321510/ksena32151000090/45863494-fried-fish-on-a-white-background.jpg'
   },
   {
     ingredientId: 29,
-    name: 'Shredded cheddar',
+    name: 'Queso cheddar rallado',
     photo_url:
       'https://image.shutterstock.com/image-photo/top-view-small-bowl-filled-260nw-284460308.jpg'
   },
   {
     ingredientId: 30,
-    name: 'Lime',
+    name: 'Lima',
     photo_url: 'https://ak8.picdn.net/shutterstock/videos/23271748/thumb/1.jpg'
   },
 
   {
     ingredientId: 31,
-    name: 'Ground cumin',
+    name: 'Comino molido',
     photo_url:
       'https://image.shutterstock.com/image-photo/pile-cumin-powder-isolated-on-260nw-1193262853.jpg'
   },
   {
     ingredientId: 32,
-    name: 'Cayenne pepper',
+    name: 'Pimienta de cayena',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/11461337/thumb/1.jpg'
   },
   {
     ingredientId: 33,
-    name: 'Flaky white fish',
+    name: 'Pescado blanco escamoso',
     photo_url:
       'https://image.shutterstock.com/image-photo/roach-river-fish-isolated-on-260nw-277764143.jpg'
   },
   {
     ingredientId: 34,
-    name: 'Avocado',
+    name: 'Aguacate',
     photo_url:
       'https://www.redwallpapers.com/public/redwallpapers-large-thumb/avocado-cut-stone-leaves-white-background-free-stock-photos-images-hd-wallpaper.jpg'
   },
   {
     ingredientId: 35,
-    name: 'Red Pepper Flakes',
+    name: 'Hojuelas de pimienta roja',
     photo_url:
       'https://as1.ftcdn.net/jpg/02/06/55/10/500_F_206551074_mVczUrAWOSMaw8kR48FQDQBqDw47jCtL.jpg'
   },
   {
     ingredientId: 36,
-    name: 'Onions',
+    name: 'Cebollas',
     photo_url: 'http://www.allwhitebackground.com/images/2/2650.jpg'
   },
   {
     ingredientId: 37,
-    name: 'Green Pepper',
+    name: 'Pimiento verde',
     photo_url: 'https://ak9.picdn.net/shutterstock/videos/4055509/thumb/1.jpg'
   },
   {
     ingredientId: 38,
-    name: 'Red Pepper',
+    name: 'Pimiento rojo',
     photo_url: 'https://ak9.picdn.net/shutterstock/videos/10314179/thumb/1.jpg'
   },
   {
     ingredientId: 39,
-    name: 'Pizza dough',
+    name: 'Masa para pizza',
     photo_url:
       'https://image.shutterstock.com/image-photo/fresh-raw-dough-pizza-bread-260nw-518950903.jpg'
   },
   {
     ingredientId: 40,
-    name: 'Ketchup sauce',
+    name: 'Salsa Ketchup',
     photo_url:
       'https://st2.depositphotos.com/5262887/11050/i/950/depositphotos_110501208-stock-photo-ketchup-bowl-isolated-on-white.jpg'
   },
   {
     ingredientId: 41,
-    name: 'Hot Sauce',
+    name: 'Salsa picante',
     photo_url:
       'https://media.istockphoto.com/photos/opened-can-of-spaghetti-sauce-on-a-white-background-picture-id497704752?k=6&m=497704752&s=612x612&w=0&h=JnL54buYu1Z3fGtd8uNdjFxiAKwlxoDluD6jbIfSaZI='
   },
   {
     ingredientId: 42,
-    name: 'Butter',
+    name: 'Manteca',
     photo_url: 'https://redrockstoffee.com/media/2016/11/AdobeStock_76417550.jpeg'
   },
   {
     ingredientId: 43,
-    name: 'Heavy Cream',
+    name: 'Crema espesa',
     photo_url:
       'https://media.istockphoto.com/photos/mayonnaise-in-bowl-isolated-on-white-background-picture-id614981116?k=6&m=614981116&s=612x612&w=0&h=LtbsI2HQXOTERYuP9YJ2PJfRF3W6DcyZ798fxMcQWC0='
   },
   {
     ingredientId: 44,
-    name: 'whole-milk plain yogurt',
+    name: 'Yogur natural de leche entera',
     photo_url:
       'https://st.depositphotos.com/2757384/3317/i/950/depositphotos_33170129-stock-photo-pouring-a-glass-of-milk.jpg'
   },
   {
     ingredientId: 45,
-    name: 'Chesse',
+    name: 'Queso',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/3619997/thumb/1.jpg'
   },
   {
@@ -591,18 +603,18 @@ export const ingredients = [
   },
   {
     ingredientId: 47,
-    name: 'celery stalks',
+    name: 'tallos de apio',
     photo_url:
       'https://cdn4.eyeem.com/thumb/6d1b3957c7caa9b73c3e0f820ef854b931808139-1538043742765/w/750'
   },
   {
     ingredientId: 48,
-    name: 'Parmesan Chesse',
+    name: 'Queso Parmesan',
     photo_url: 'https://ak7.picdn.net/shutterstock/videos/3721877/thumb/1.jpg'
   },
   {
     ingredientId: 49,
-    name: 'pancetta',
+    name: 'tocino',
     photo_url:
       'https://previews.123rf.com/images/onlyfabrizio/onlyfabrizio1606/onlyfabrizio160600002/60198502-raw-stripes-of-pancetta-stesa-on-a-white-background.jpg'
   },
@@ -614,67 +626,85 @@ export const ingredients = [
   },
   {
     ingredientId: 51,
-    name: 'Garlic',
+    name: 'Ajo',
     photo_url: 'https://image.freepik.com/free-photo/fresh-garlic-white-background_1339-17012.jpg'
   },
   {
     ingredientId: 52,
-    name: 'Lasagna noodles',
+    name: 'Fideos de Lasagna',
     photo_url:
       'https://previews.123rf.com/images/velkol/velkol1110/velkol111000004/11083085-an-image-of-raw-lasagna-on-white-background.jpg'
   },
   {
     ingredientId: 53,
-    name: 'Italian sauce',
+    name: 'Sauc italiano',
     photo_url:
       'https://previews.123rf.com/images/arinahabich/arinahabich1504/arinahabich150400858/38827029-raw-italian-sausage-on-a-white-background-.jpg'
   },
   {
     ingredientId: 54,
-    name: 'Crushed Tomatoes',
+    name: 'Tomates aplastados',
     photo_url:
       'https://previews.123rf.com/images/merkulovnik/merkulovnik1406/merkulovnik140600100/28751626-crushed-tomato-isolated-on-white-background.jpg'
   },
   {
     ingredientId: 55,
-    name: 'Sugar',
+    name: 'Azucar',
     photo_url:
       'https://previews.123rf.com/images/sommai/sommai1411/sommai141100034/33199985-sugar-cubes-in-a-bowl-isolated-on-white-background.jpg'
   },
   {
     ingredientId: 56,
-    name: 'minced fresh parsley',
+    name: 'perejil fresco picado',
     photo_url:
       'https://t4.ftcdn.net/jpg/02/15/78/05/240_F_215780551_Eid0xpP1M2fokvuEcvJj8uqhROLJkb3p.jpg'
   },
   {
     ingredientId: 57,
-    name: 'ricotta cheese',
+    name: 'queso ricotta',
     photo_url:
       'https://previews.123rf.com/images/barkstudio/barkstudio1608/barkstudio160800351/61418602-ricotta-cheese-into-a-bowl-in-white-background.jpg'
   },
   {
     ingredientId: 58,
-    name: ' fennel seed',
+    name: ' semillas de hinojo',
     photo_url:
       'https://previews.123rf.com/images/pinkomelet/pinkomelet1710/pinkomelet171000227/88851299-close-up-the-fennel-seed-on-white-background.jpg'
   },
   {
     ingredientId: 59,
-    name: 'Banana',
+    name: 'Platano',
     photo_url:
       'https://www.conservationmagazine.org/wp-content/uploads/2013/04/sterile-banana.jpg'
   },
   {
     ingredientId: 60,
-    name: 'Frozen Straberries',
+    name: 'Fresas congeladas',
     photo_url:
       'https://www.cascadianfarm.com/wp-content/uploads/2018/12/Strawberries_Main_0218.png'
   },
   {
     ingredientId: 61,
-    name: 'Greek Yogurt',
+    name: 'Yogur griego',
     photo_url:
       'http://images.media-allrecipes.com/userphotos/960x960/3758635.jpg'
+  },
+  {
+    ingredientId: 62,
+    name: 'Chiles jalapeños',
+    photo_url:
+      'https://tainofarm.com/wp-content/uploads/2019/11/chiles-jalape%C3%B1os-encurtidos.jpg'
+  },
+  {
+    ingredientId: 63,
+    name: 'Limones',
+    photo_url:
+      'https://assets.stickpng.com/images/580b57fcd9996e24bc43c15f.png'
+  },
+  {
+    ingredientId: 64,
+    name: 'Tostadas de maíz',
+    photo_url:
+      'https://guiacomercialdelpuerto.com.mx/wp-content/uploads/2018/07/tostadas.png'
   },
 ];

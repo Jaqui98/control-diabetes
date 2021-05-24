@@ -44,7 +44,7 @@ export default class IngredientsDetailsScreen extends React.Component {
 
   render() {
     const { navigation } = this.props;
-    const item = navigation.getParam('ingredients');
+    const item = this.props.route.params.ingredients;
     const ingredientsArray = getAllIngredients(item);
 
     return (

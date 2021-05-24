@@ -60,22 +60,22 @@ const OnboardingScreen = ({navigation}) => {
   
         pages={[
           {
-            backgroundColor: '#c7ffd8',
-            image: <Image source={require('../../assets/Doctora.png')} />,
-            title: 'Onboarding 1',
-            subtitle: 'Done with React Native Onboarding Swiper',
+            backgroundColor: '#489ad3',
+            image: <Image source={require('../../assets/Autonomia.png')} />,
+            title: 'Cuidando tu salud',
+            subtitle: 'Usando nuestra aplicación te ayudaremos a manternte siempre saludable.',
           },
           {
-            backgroundColor: '#dff3e3',
-            image: <Image source={require('../../assets/General.png')} />,
-            title: 'Onboarding 2',
-            subtitle: 'Done with React Native Onboarding Swiper',
+            backgroundColor: '#87d489',
+            image: <Image source={require('../../assets/prueba2.png')} />,
+            title: 'Generado habitos',
+            subtitle: 'Haciendo de tus habitos un ejemplo de rutina saludable.',
           },
           {
-            backgroundColor: '#b8b5ff',
-            image: <Image source={require('../../assets/Chequeo-sangre.png')} />,
-            title: 'Onboarding 2',
-            subtitle: 'Done with React Native Onboarding Swiper',
+            backgroundColor: '#fbc082',
+            image: <Image source={require('../../assets/Ejercicio.png')} />,
+            title: 'Ejercicios en casa',
+            subtitle: 'No necesitas salir de casa para mantenerte activo.',
           },
           
         ]}

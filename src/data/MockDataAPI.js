@@ -1,16 +1,17 @@
 import { Text } from 'react-native';
 import React, { Component } from 'react';
-import { recipes, categories, ingredients } from './dataArrays';
+import { recipes, rutinas, ingredients, services } from './dataArrays';
 
 export function getCategoryById(categoryId) {
   let category;
-  categories.map(data => {
+  services.map(data => {
     if (data.id == categoryId) {
       category = data;
     }
   });
   return category;
 }
+
 
 export function getIngredientName(ingredientID) {
   let name;
@@ -34,13 +35,14 @@ export function getIngredientUrl(ingredientID) {
 
 export function getCategoryName(categoryId) {
   let name;
-  categories.map(data => {
+  services.map(data => {
     if (data.id == categoryId) {
       name = data.name;
     }
   });
   return name;
 }
+
 
 export function getRecipes(categoryId) {
   const recipesArray = [];
@@ -108,7 +110,7 @@ export function getRecipesByIngredientName(ingredientName) {
 export function getRecipesByCategoryName(categoryName) {
   const nameUpper = categoryName.toUpperCase();
   const recipesArray = [];
-  categories.map(data => {
+  services.map(data => {
     if (data.name.toUpperCase().includes(nameUpper)) {
       const recipes = getRecipes(data.id); // return a vector of recipes
       recipes.map(item => {
